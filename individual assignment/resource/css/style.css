@@ -1,0 +1,109 @@
+body{
+background-color: white;
+}
+
+.topnav {
+  background-color: #3d251e;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #5b3e31;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #765341;
+  color: white;
+}
+
+.title{
+font-family: Jumble;
+font-size: 100px;
+text-align: center;
+font-weight: bold;
+color: black;
+}
+
+.subtitle{
+font-family: Rastanty Cortez
+font-size: 80px;
+text-align: center;
+color: black;
+} 
+
+.heading{
+font-family: Ariel;
+font-size: 40px;
+text-align: center;
+color: #2E1503;
+}
+
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 2fr;
+ column-gap: 10px;
+}
+
+.video {
+    grid-column: 1;
+}
+
+.text-content {
+    grid-column: 2; 
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 500 px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+}
+
+.text-centered
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px #000000;
+  pointer-events: none; 
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
